@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+{% block head %}
+    <title>Web test</title>
+{% endblock %}
+{% block body %}
+    <div class="row mt-5 justify-content-center">
+        <div class="col-lg">
+            <center>
+               <img src="{{ request.host_url }}/img/duck.gif" alt="">
+               <h1 class="mt-5">Welcome!</h1>
+            </center>
+        </div>
+    </div>
+{% endblock %}
